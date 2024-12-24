@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Docker
+!.dockerignore
+!Dockerfile
+
+# API
+!app/
+!requirements.txt
+**/__pycache__
